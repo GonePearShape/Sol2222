@@ -6,8 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/lobby.unity
-    guid: 4a8a192946ce8b346af7bde3c4e22e88
-  - enabled: 1
-    path: Assets/Scenes/main.unity
-    guid: 6c6189776df118948bb2dbf392dcad52
+    path: Assets/StellarGen/DemoScenes/AutoStart/AutoStart.unity
+    guid: 00000000000000000000000000000000

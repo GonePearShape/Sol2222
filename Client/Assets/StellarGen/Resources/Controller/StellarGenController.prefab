@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &119346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 498398}
+  - component: {fileID: 11449372}
+  - component: {fileID: 11469224}
+  m_Layer: 0
+  m_Name: StellarGenController
+  m_TagString: StellarGenController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498398
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11449372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2100161417, guid: e6efa0ec2ed56e1409e3fdbf9cfb7d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11469224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 475196340, guid: e6efa0ec2ed56e1409e3fdbf9cfb7d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 129870, guid: e3808ed183807aa49b7894b2c35107be, type: 2}
+  - {fileID: 129870, guid: 7001d75d993722d4f9d2aac819ae1024, type: 2}
+  - {fileID: 129870, guid: 8007e9de085d58640ba0408ad682a0fc, type: 2}
+  - {fileID: 129870, guid: fe16e6fe0fc3ebe4f82c81364bc4ee7f, type: 2}
+  - {fileID: 129870, guid: fe26702bf14ca5949bed5fc5990b912b, type: 2}
+  - {fileID: 129870, guid: 0a01c3f6b5ad30a4e93917ea480f9bfd, type: 2}
+  - {fileID: 129870, guid: 4adf6251f67cb6f4c9dad014be195701, type: 2}
+  - {fileID: 129870, guid: a307cbb56a997cf4f9964905bacdb266, type: 2}
+  - {fileID: 129870, guid: f5e37a1b8618f6f46ba9e4db1299f61a, type: 2}
+  - {fileID: 129870, guid: 956f6fb8af450364a997f4801e9530ff, type: 2}
+  - {fileID: 129870, guid: 22c5ba7346595af40b9df0a1ff00e34d, type: 2}
+  - {fileID: 129870, guid: d0105d1342b44ba45b2044d74c440701, type: 2}
+  seed: 345
+  texture_resolution: 2
+  max_threads: 2
+  noise_quality: 1
+  auto_start: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 129870, guid: e3808ed183807aa49b7894b2c35107be, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: StellarGenController
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 129870, guid: 7001d75d993722d4f9d2aac819ae1024, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 129870, guid: 8007e9de085d58640ba0408ad682a0fc, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 129870, guid: fe16e6fe0fc3ebe4f82c81364bc4ee7f, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 129870, guid: fe26702bf14ca5949bed5fc5990b912b, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 129870, guid: 0a01c3f6b5ad30a4e93917ea480f9bfd, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 129870, guid: 4adf6251f67cb6f4c9dad014be195701, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[7]
+      value: 
+      objectReference: {fileID: 129870, guid: a307cbb56a997cf4f9964905bacdb266, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[8]
+      value: 
+      objectReference: {fileID: 129870, guid: f5e37a1b8618f6f46ba9e4db1299f61a, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[9]
+      value: 
+      objectReference: {fileID: 129870, guid: 956f6fb8af450364a997f4801e9530ff, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[10]
+      value: 
+      objectReference: {fileID: 129870, guid: 22c5ba7346595af40b9df0a1ff00e34d, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[11]
+      value: 
+      objectReference: {fileID: 129870, guid: d0105d1342b44ba45b2044d74c440701, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[12]
+      value: 
+      objectReference: {fileID: 129870, guid: a307cbb56a997cf4f9964905bacdb266, type: 2}
+    - target: {fileID: 0}
+      propertyPath: prefabs.Array.data[13]
+      value: 
+      objectReference: {fileID: 129870, guid: 2c5ea0b08b6de8c418f72a64b1038c33, type: 2}
+    - target: {fileID: 0}
+      propertyPath: material
+      value: 
+      objectReference: {fileID: 2100000, guid: 48da7eb0ece9cc34198ec04e4dd20b43, type: 2}
+    - target: {fileID: 0}
+      propertyPath: texture_resolution
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: seed
+      value: 3567465095
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: noise_quality
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 119346}
+  m_IsPrefabParent: 1
