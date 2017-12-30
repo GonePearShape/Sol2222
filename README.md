@@ -1,3 +1,5 @@
+To get updates about this development, check out the following links!
+
 * Discord: https://discord.com/GonePearShape
 * Facebook: https://facebook.com/GonePearShape
 * Patreon: https://patreon.com/GonePearShape
