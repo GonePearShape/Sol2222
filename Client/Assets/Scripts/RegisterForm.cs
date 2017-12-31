@@ -17,12 +17,13 @@ namespace GonePearShape.Client
 		private static String uName = "username";
 		private static int uNameMinLength = 8;
 		private static int uNameMaxLength = 16;
-		private static String pWord = "548D8CF86E2D301F6E1F5DC621CBA2E409E8E814BA35CA1FEEFF6B0B995D848F";
-		private static String shaPword;
+        private static string salt = InputUserName.text + "150FE5514030B1434A5DEAF491ECE92C0E6497447D6DE7BD6BA85E8CAE1E00A3";
+        private static string pWord = salt + "31EFFE5477F15FA7680896D879365A8CA3B60E027BB7E95615EBB3B70F83D286"; // remove SHA string once connected to DB
+        private static String shaPword;
 
 		private void CheckLogin ()
 		{
-			shaPword = SHA.GenerateSHA256String (InputPassWord.text);
+			shaPword = SHA.GenerateSHA256String (salt + InputPassWord.text);
 			if (InputUserName.text != "" && InputPassWord.text != "")
 			{
 				if (InputUserName.text == uName && shaPword == pWord)
