@@ -261,4 +261,3 @@ __pycache__/
 *.pyc
 Client/Assets/Scripts/LoginForm.cs
 Client/Assets/Scripts/RegisterForm.cs
-Client/Assets/Scripts/LoginForm.cs
