@@ -29,35 +29,35 @@ Material:
     m_Floats:
     - Bump_strenght: 0
     - HorizonY: -0.06
-    - Horizon_adj: 10.897312
+    - Horizon_adj: 10.737465
     - SunBlend: 66
     - White_cutoff: 6.2
-    - _Coloration: -0.058999993
+    - _Coloration: 0.1
     - fCameraHeight: 0
     - fCameraHeight2: 0
-    - fExposure: 0.4
+    - fExposure: 0.41
     - fInnerRadius: 10000
     - fInnerRadius2: 100000000
     - fKm4PI: 0.005026548
     - fKmESun: 0.000264
-    - fKr4PI: 0.10694811
-    - fKrESun: 0.0056170356
+    - fKr4PI: 0.081815355
+    - fKrESun: 0.0042970353
     - fOuterRadius: 10250
     - fOuterRadius2: 105062500
     - fSamples: 0.02
     - fScale: 0.004
-    - fScaleDepth: 0
+    - fScaleDepth: 0.0001
     - fScaleOverScaleDepth: 0.06666667
     - flicker: 0
-    - g: -0.9
-    - g2: 0.80999994
+    - g: -0.9990211
+    - g2: 0.9980432
     m_Colors:
     - GroundColor: {r: 0, g: 0, b: 0, a: 1}
     - SunColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Obliqueness: {r: 0, g: 0, b: 0, a: 0}
-    - _TintColor: {r: 0.003921569, g: 0.003921569, b: 0.003921569, a: 1}
+    - _TintColor: {r: 0, g: 0, b: 0, a: 0}
     - v3CameraPos: {r: -62.67624, g: -10002, b: -107.306, a: 0}
-    - v3InvWavelength: {r: 97.04316, g: 29.20611, b: 9.204747, a: 0}
-    - v3LightDir: {r: -0.0016814258, g: 0.54465526, b: 0.83865833, a: 0}
+    - v3InvWavelength: {r: 18.838013, g: 95.36744, b: 162.69263, a: 0}
+    - v3LightDir: {r: 0.158236, g: 0.41186666, b: -0.89740026, a: 0}
     - v3LightDirMoon: {r: 0.26762173, g: 0.117537424, b: 0.95632815, a: 0}
