@@ -3,7 +3,7 @@
  * VERSION = 1.1;
  * FACEBOOK = "https://www.facebook.com/GonePearShape";
  * TWITTER = "https://twitter.com/GonePearShape";
- * TUTORIALS = "https://youtube.com/..."
+ * WEB = "http://gonepearshape.com";
 */
 
 /* USAGE:
@@ -54,7 +54,7 @@ namespace GonePearShape.Cryptography
 
 #region method PrintToConsole
 		// Takes a String, converts it to SHA256 and prints it to the Console
-		public static void PrintToConsole ( String s )
+		public static void PrintToConsole ( string s )
 		{
 			Debug.Log (SHA.GenerateSHA256String ( s ) );
 		}
