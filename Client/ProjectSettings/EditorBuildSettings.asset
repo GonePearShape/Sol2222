@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/character_select.unity
     guid: 2fb19d4e39d8d9c4ba29c9fc1d938e0f
   - enabled: 1
+    path: Assets/Scenes/Earth.unity
+    guid: 1f826dfb667f39d43a17527d4a1ec849
+  - enabled: 1
     path: Assets/Scenes/main.unity
     guid: 6c6189776df118948bb2dbf392dcad52
-  - enabled: 1
-    path: Assets/StellarGen/DemoScenes/AutoStart/AutoStart.unity
-    guid: 2df6ece2390ad4944a26811c8714ac38

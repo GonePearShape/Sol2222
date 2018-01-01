@@ -554,9 +554,12 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\LoginForm.cs" />
     <Compile Include="Assets\Scripts\Network.cs" />
     <Compile Include="Assets\Scripts\PlayerGlobals.cs" />
+    <Compile Include="Assets\Scripts\RegisterForm.cs" />
     <Compile Include="Assets\Scripts\SHA.cs" />
+    <Compile Include="Assets\Scripts\TabBehaviour.cs" />
     <Compile Include="Assets\SkyMaster\Assets\Version 1.5\Unity 5 Scene\Scripts\Water\GerstnerDisplaceSM.cs" />
     <Compile Include="Assets\SkyMaster\Assets\Version 1.5\Unity 5 Scene\Scripts\Water\MeshContainerSM.cs" />
     <Compile Include="Assets\SkyMaster\Assets\Version 1.5\Unity 5 Scene\Scripts\Water\PlanarReflectionSM.cs" />
