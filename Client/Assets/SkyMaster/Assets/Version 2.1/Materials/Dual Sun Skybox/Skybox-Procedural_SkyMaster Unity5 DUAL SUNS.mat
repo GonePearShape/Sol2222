@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Skybox-Procedural_SkyMaster Unity5 DUAL SUNS
+  m_Shader: {fileID: 4800000, guid: f1fcb1b8bab23b4488e69b760c2166a1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: 4b8d081e9d114c7f1100f5ab44295342, type: 3}
+        m_Scale: {x: -2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Bump_strenght: 0
+    - HorizonY: -0.06
+    - Horizon_adj: 9.877978
+    - Motion_f: 16
+    - Out_color_f1: 2
+    - Out_color_f2: 1.58
+    - _Coloration: 0.1
+    - fCameraHeight: 0
+    - fCameraHeight2: 0
+    - fExposure: 1.6
+    - fInnerRadius: 10000
+    - fInnerRadius2: 100000000
+    - fKm4PI: 0.005026548
+    - fKmESun: 0.000664
+    - fKr4PI: 0.018983502
+    - fKrESun: 0.0025076938
+    - fOuterRadius: 10250
+    - fOuterRadius2: 105062500
+    - fSamples: 0.02
+    - fScale: 0.004
+    - fScaleDepth: 0.08
+    - fScaleOverScaleDepth: 0.13333334
+    - flicker: 0
+    - g: -0.9990211
+    - g2: 0.9980432
+    m_Colors:
+    - DualSunsFactors: {r: 0.3, g: 0.3, b: 18, a: 0}
+    - GroundColor: {r: 0.17056286, g: 0.21022138, b: 0.22794116, a: 0.36862746}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Obliqueness: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 0.039215688, g: 0.019607844, b: 0.05882353, a: 1}
+    - v3CameraPos: {r: -62.67624, g: -10001.565, b: -107.306, a: 0}
+    - v3InvWavelength: {r: 32.136818, g: 26.680214, b: 123.45677, a: 0}
+    - v3LightDir: {r: -0.16204183, g: 0.5825687, b: 0.79646474, a: 0}
+    - v3LightDirMoon: {r: 0.28155044, g: 0.47781533, b: 0.83211887, a: 0}

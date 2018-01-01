@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SkyMasterSkyMaterial MOBILE
+  m_Shader: {fileID: 4800000, guid: 1ecb554e776bfed498c87977bf8bfa83, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ColorRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Bump_strenght: 0
+    - _Coloration: 0.1
+    - fCameraHeight: 0
+    - fCameraHeight2: 0
+    - fExposure: 1.6
+    - fInnerRadius: 10000
+    - fInnerRadius2: 100000000
+    - fKm4PI: 0.055292033
+    - fKmESun: 0.0073039997
+    - fKr4PI: 0.044116244
+    - fKrESun: 0.005827694
+    - fOuterRadius: 10250
+    - fOuterRadius2: 105062500
+    - fSamples: 0.02
+    - fScale: 0.004
+    - fScaleDepth: 0.07
+    - fScaleOverScaleDepth: 0.007692308
+    - g: -0.9990211
+    - g2: 0.9980432
+    m_Colors:
+    - _TintColor: {r: 0, g: 0, b: 0, a: 0}
+    - v3CameraPos: {r: 0, g: 14, b: 0, a: 0}
+    - v3InvWavelength: {r: 32.136818, g: 74.831474, b: 123.45677, a: 0}
+    - v3LightDir: {r: 0.17008138, g: 0.7406148, b: -0.6500477, a: 0}
+    - v3LightDirMoon: {r: 0.06297476, g: -0.6628926, b: 0.7460618, a: 0}
