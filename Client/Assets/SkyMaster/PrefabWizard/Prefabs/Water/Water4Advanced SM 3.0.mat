@@ -121,7 +121,7 @@ Material:
     - _NormalsDisplacement: 0
     - _ReflDistort: 0.9267696
     - _RefrDistort: 1.4393286
-    - _Shininess: 368
+    - _Shininess: 113
     - _ShoreFadeFactor: 0
     - _ShoreTiling: 56.862743
     - _Speed: 0.4137931
@@ -137,7 +137,7 @@ Material:
     - WaveSpeed: {r: 1.086165, g: 4.440575, b: 12.105146, a: -3.0206447}
     - _AnimationDirection: {r: 2, g: 4, b: 2, a: -1}
     - _AnimationTiling: {r: 0.04582553, g: 0.0182, b: 0.045714468, a: 0.027129691}
-    - _BaseColor: {r: 0.35686275, g: 0.54509807, b: 0.5058824, a: 0.81960785}
+    - _BaseColor: {r: 0.98039216, g: 0.09803922, b: 0.29411766, a: 0.8039216}
     - _BumpDirection: {r: 2, g: 1, b: 1, a: -22}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
     - _BumpTiling: {r: 0.12, g: 0.07, b: 0.08, a: 0.06}
@@ -147,7 +147,7 @@ Material:
     - _DepthColorFade: {r: 0.8880597, g: 0.27834705, b: 0.44463244, a: 0.22352941}
     - _Displacement: {r: 6.6371665, g: 20.353983, b: -1, a: -0.681416}
     - _DisplacementXz: {r: 0.6499999, g: -2.9203715, b: 1.6599998, a: -3.9363046}
-    - _DistortParams: {r: 7.82, g: 0.1, b: -0.74, a: 6}
+    - _DistortParams: {r: 6.37, g: 0.1, b: -0.74, a: 6}
     - _Extinction: {r: 4.5, g: 75, b: 300, a: 1}
     - _Foam: {r: 0, g: 0, b: -0.16, a: -0.21}
     - _FoamWaveParams: {r: 0, g: 0.24918434, b: 3.3395782, a: 1}
@@ -164,13 +164,13 @@ Material:
     - _GerstnerfactorsDir: {r: -4.61, g: 1, b: 1, a: 1}
     - _GerstnerfactorsSteep: {r: 2, g: 1, b: 2, a: 1}
     - _HorizonColor: {r: 0.052907113, g: 0.24486735, b: 0.2835821, a: 1}
-    - _InvFadeParemeter: {r: 0.16, g: 0.1594, b: 0.043, a: 4.2}
+    - _InvFadeParemeter: {r: 0.07, g: 0.15, b: 1.29, a: 4.2}
     - _LocalWaveDirection: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
     - _LocalWaveParams: {r: 3, g: 9.529439, b: 0.3, a: 5}
     - _LocalWavePosition: {r: 392.48502, g: 2.6749623, b: -371.31696, a: 5}
     - _LocalWaveVelocity: {r: 0.18307908, g: 1.131652, b: 1.7805338, a: 0}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _ReflectionColor: {r: 0.050980393, g: 0.9607843, b: 1, a: 0.43137255}
+    - _ReflectionColor: {r: 0.627451, g: 0.43137255, b: 0.5294118, a: 0.8235294}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
