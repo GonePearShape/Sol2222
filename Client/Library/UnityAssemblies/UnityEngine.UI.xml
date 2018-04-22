@@ -1736,11 +1736,10 @@
         <para>See MonoBehaviour.OnDisable.</para>
       </summary>
     </member>
-    <member name="M:UnityEngine.UI.AspectRatioFitter.SetDirty()">
+    <member name="M:UnityEngine.UI.AspectRatioFitter.SetDirty">
       <summary>
         <para>Mark the AspectRatioFitter as dirty.</para>
       </summary>
-      <param name="delayUpdate"></param>
     </member>
     <member name="M:UnityEngine.UI.AspectRatioFitter.SetLayoutHorizontal">
       <summary>
@@ -2403,7 +2402,7 @@ One point is 112 of a pica, and 172 of an inch.</para>
     </member>
     <member name="P:UnityEngine.UI.Dropdown.value">
       <summary>
-        <para>The index of the currently selected option. 0 is the first option, 1 is the second, and so on.</para>
+        <para>The Value is the index number of the current selection in the Dropdown. 0 is the first option in the Dropdown, 1 is the second, and so on.</para>
       </summary>
     </member>
     <member name="M:UnityEngine.UI.Dropdown.AddOptions(System.Collections.Generic.List`1&lt;UnityEngine.UI.Dropdown/OptionData&gt;)">
@@ -2916,7 +2915,7 @@ If you have modified the list of options, you should call this method afterwards
     </member>
     <member name="M:UnityEngine.UI.GraphicRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1&lt;UnityEngine.EventSystems.RaycastResult&gt;)">
       <summary>
-        <para>See: BaseRaycaster.</para>
+        <para>Determines if the cursor is over a Graphics element in the Scene. See: BaseRaycaster.</para>
       </summary>
       <param name="eventData"></param>
       <param name="resultAppendList"></param>
@@ -5377,7 +5376,7 @@ Characters 0-9, . (dot), and - (dash / minus sign) are allowed. The dash is only
     </member>
     <member name="M:UnityEngine.UI.Selectable.IsHighlighted(UnityEngine.EventSystems.BaseEventData)">
       <summary>
-        <para>Is the selectable currently 'highlighted'.</para>
+        <para>Returns whether the selectable is currently 'highlighted' or not.</para>
       </summary>
       <param name="eventData"></param>
     </member>

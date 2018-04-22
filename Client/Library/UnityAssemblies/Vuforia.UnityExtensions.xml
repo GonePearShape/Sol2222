@@ -10,6 +10,26 @@
             of an ARCamera.
             </summary>
     </member>
+    <member name="T:Vuforia.IlluminationManager">
+      <summary>
+            Provides data on the estimated illumination values in the current frame
+            such as illumination intensity or ambient light color temperature
+            </summary>
+    </member>
+    <member name="P:Vuforia.IlluminationManager.AmbientIntensity">
+      <summary>
+            The current ambient intensity for the scene measured in Lumens. The value
+            may not be available on all platforms. When the value is unavailable
+            NULL will be returned.
+            </summary>
+    </member>
+    <member name="P:Vuforia.IlluminationManager.AmbientColorTemperature">
+      <summary>
+            The current color temperature for the scene measured in Kelvin. The value
+            may not be available on all platforms. When the value is unavailable
+            NULL will be returned.
+            </summary>
+    </member>
     <member name="T:Vuforia.PositionalDeviceTracker">
       <summary>
             The PositionalDeviceTracker tracks a device in the world by relying on
@@ -101,11 +121,6 @@
       <remarks> If the scene is scaled to a different unit it is
             necessary to define a custom camera offset in the same unit.</remarks>
     </member>
-    <member name="F:Vuforia.DigitalEyewearARController.GEARVR_VIEWER">
-      <summary>
-            Viewer name for integration with Oculus SDK
-            </summary>
-    </member>
     <member name="F:Vuforia.DigitalEyewearARController.CARDBOARD_SDK_VIEWER">
       <summary>
             Viewer name for integration with Cardboard SDK
@@ -145,11 +160,6 @@
     <member name="F:Vuforia.DigitalEyewearARController.StereoFramework.Cardboard">
       <summary>
             Cardboard SDK is used for stereo rendering
-            </summary>
-    </member>
-    <member name="F:Vuforia.DigitalEyewearARController.StereoFramework.GearVR">
-      <summary>
-            Oculus SDK is used for stereo rendering
             </summary>
     </member>
     <member name="T:Vuforia.DigitalEyewearARController.SeeThroughConfiguration">
@@ -1041,7 +1051,7 @@
             Set a filter for a 3rd party VR SDK
             </summary>
             Allows the list to be filtered for a specific 3rd party SDK. 
-            Known SDKs are "GEARVR" and "CARDBOARD".
+            Known SDK is "CARDBOARD".
             To return to the default list of viewers set the filter to the empty string.
         </member>
     <member name="M:Vuforia.IViewerParametersList.GetAllViewers">
@@ -2519,6 +2529,14 @@
       <returns>
       </returns>
     </member>
+    <member name="M:Vuforia.StateManager.GetIlluminationManager">
+      <summary>
+            Returns the IlluminationManager which provides data
+            on estimated illumination of the current frame
+            </summary>
+      <returns>
+      </returns>
+    </member>
     <member name="T:Vuforia.WebCamProfile">
       <summary>
             This class loads a xml file from the streamingassets folder that contains
@@ -3197,8 +3215,7 @@
       <summary>
             Tells Vuforia where the texture id to use for updating video background data.
             The native texture ID needs to be passed in as a separate parameter.
-            When using multihreaded rendering, in particular when also using the Oculus SDK
-            on the GearVR, this texture ID needs to be resolved in an Awake method
+            When using multihreaded rendering this texture ID needs to be resolved in an Awake method
             (texture.GetNativeTexturePtr())
             </summary>
     </member>
@@ -3206,8 +3223,7 @@
       <summary>
             Tells Vuforia the texture pointer to use for updating video background data.
             The native texture pointer needs to be passed in as a separate parameter.
-            When using multihreaded rendering, in particular when also using the Oculus SDK
-            on the GearVR, this texture ID needs to be resolved in an Awake method
+            When using multihreaded rendering this texture ID needs to be resolved in an Awake method
             (texture.GetNativeTexturePtr())
             </summary>
     </member>

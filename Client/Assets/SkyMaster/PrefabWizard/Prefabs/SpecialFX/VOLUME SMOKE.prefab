@@ -3656,15 +3656,15 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 0}
-      propertyPath: EmissionModule.cnt0
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: EmissionModule.cnt1
+      propertyPath: EmissionModule.m_Bursts.Array.data[1].countCurve.scalar
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 0}
-      propertyPath: EmissionModule.cnt2
+      propertyPath: EmissionModule.m_Bursts.Array.data[2].countCurve.scalar
       value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 0}

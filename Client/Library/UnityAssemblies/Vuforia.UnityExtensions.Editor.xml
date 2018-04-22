@@ -4900,14 +4900,6 @@
             must be defined in the "config.xml" file.
             </summary>
     </member>
-    <member name="M:Vuforia.EditorClasses.PlayerSettingsValidator.ValidatePlayerSettings(System.Boolean)">
-      <summary>
-            Validate Player Settings for the platform(s) supported by Vuforia (currently active or all platforms)
-            Validation should be done when Vuforia is enabled in the Player Settings.
-            </summary>
-      <param name="validateAllTargets">if true will do the validation for all the supported platforms</param>
-      <returns>result of the validation containing build message and validity flag</returns>
-    </member>
     <member name="T:Vuforia.EditorClasses.SerializedCylinderTarget">
       <summary>
             This class provides utility properties to a serialized object

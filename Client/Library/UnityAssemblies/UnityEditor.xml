@@ -2126,7 +2126,7 @@ Transitions with exit times greater than one will be evaluated only once, so the
     </member>
     <member name="F:UnityEditor.ApiCompatibilityLevel.NET_Micro">
       <summary>
-        <para>Micro profile, used by Mono scripting backend on iOS, tvOS, Android and Tizen if stripping level is set to "Use micro mscorlib".</para>
+        <para>Micro profile, used by Mono scripting backend on iOS, tvOS, and Android if stripping level is set to "Use micro mscorlib".</para>
       </summary>
     </member>
     <member name="F:UnityEditor.ApiCompatibilityLevel.NET_Web">
@@ -4820,7 +4820,7 @@ While building, the small progress icon in the lower right corner of Unity's mai
         <para>Get all script assemblies compiled by Unity.</para>
       </summary>
       <returns>
-        <para>Array of script assemblies compoiled by Unity.</para>
+        <para>Array of script assemblies compiled by Unity.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.Compilation.CompilationPipeline.GetAssemblyDefinitionFilePathFromAssemblyName(System.String)">
@@ -8242,7 +8242,7 @@ Make an enum popup selection field for a bitmask.</para>
     </member>
     <member name="M:UnityEditor.EditorGUI.PropertyField(UnityEngine.Rect,UnityEditor.SerializedProperty,System.Boolean)">
       <summary>
-        <para>Make a field for SerializedProperty.</para>
+        <para>Use this to make a field for a SerializedProperty in the Editor.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for the property field.</param>
       <param name="property">The SerializedProperty to make a field for.</param>
@@ -8254,7 +8254,7 @@ Make an enum popup selection field for a bitmask.</para>
     </member>
     <member name="M:UnityEditor.EditorGUI.PropertyField(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent,System.Boolean)">
       <summary>
-        <para>Make a field for SerializedProperty.</para>
+        <para>Use this to make a field for a SerializedProperty in the Editor.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for the property field.</param>
       <param name="property">The SerializedProperty to make a field for.</param>
@@ -14980,7 +14980,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Erases tiles and GameObjects from given bounds within the selected layers.</para>
       </summary>
-      <param name="gridLayout"> to erase data from.</param>
+      <param name="gridLayout">Grid to erase data from.</param>
       <param name="brushTarget">Target of the erase operation. By default the currently selected GameObject.</param>
       <param name="position">The bounds to erase data from.</param>
     </member>
@@ -14988,7 +14988,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Box fills tiles and GameObjects into given bounds within the selected layers.</para>
       </summary>
-      <param name="gridLayout"> to box fill data to.</param>
+      <param name="gridLayout">Grid to box fill data to.</param>
       <param name="brushTarget">Target of the box fill operation. By default the currently selected GameObject.</param>
       <param name="position">The bounds to box fill data into.</param>
     </member>
@@ -15016,7 +15016,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Erases tiles and GameObjects in a given position within the selected layers.</para>
       </summary>
-      <param name="gridLayout"> used for layout.</param>
+      <param name="gridLayout">Grid used for layout.</param>
       <param name="brushTarget">Target of the erase operation. By default the currently selected GameObject.</param>
       <param name="position">The coordinates of the cell to erase data from.</param>
     </member>
@@ -15031,7 +15031,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Flood fills tiles and GameObjects starting from a given position within the selected layers.</para>
       </summary>
-      <param name="gridLayout">GridLayout used for layout.</param>
+      <param name="gridLayout">Grid used for layout.</param>
       <param name="brushTarget">Target of the flood fill operation. By default the currently selected GameObject.</param>
       <param name="position">Starting position of the flood fill.</param>
     </member>
@@ -15109,7 +15109,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>MoveEnd is called when user has ended the move of the area previously selected with the selection marquee.</para>
       </summary>
-      <param name="gridLayout"> used for layout.</param>
+      <param name="gridLayout">Grid used for layout.</param>
       <param name="brushTarget">Target of the move operation. By default the currently selected GameObject.</param>
       <param name="position">Position where the move operation has ended.</param>
     </member>
@@ -15117,7 +15117,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>MoveEnd is called when user starts moving the area previously selected with the selection marquee.</para>
       </summary>
-      <param name="gridLayout"> used for layout.</param>
+      <param name="gridLayout">Grid used for layout.</param>
       <param name="brushTarget">Target of the move operation. By default the currently selected GameObject.</param>
       <param name="position">Position where the move operation has started.</param>
     </member>
@@ -15125,15 +15125,15 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Paints tiles and GameObjects into a given position within the selected layers.</para>
       </summary>
-      <param name="gridLayout"> used for layout.</param>
+      <param name="gridLayout">Grid used for layout.</param>
       <param name="brushTarget">Target of the paint operation. By default the currently selected GameObject.</param>
       <param name="position">The coordinates of the cell to paint data to.</param>
     </member>
     <member name="M:UnityEditor.GridBrush.Pick(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt,UnityEngine.Vector3Int)">
       <summary>
-        <para>Picks tiles from selected and child GameObjects, given the coordinates of the cells.</para>
+        <para>Picks tiles from selected Tilemap|tile maps and child GameObjects, given the coordinates of the cells.</para>
       </summary>
-      <param name="gridLayout"> to pick data from.</param>
+      <param name="gridLayout">Grid to pick data from.</param>
       <param name="brushTarget">Target of the picking operation. By default the currently selected GameObject.</param>
       <param name="position">The coordinates of the cells to paint data from.</param>
       <param name="pickStart">Pivot of the picking brush.</param>
@@ -15197,7 +15197,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Does a preview of what happens when a GridBrush.BoxFill is done with the same parameters.</para>
       </summary>
-      <param name="gridLayout"> to box fill data to.</param>
+      <param name="gridLayout">Grid to box fill data to.</param>
       <param name="brushTarget">Target of box fill operation. By default the currently selected GameObject.</param>
       <param name="position">The bounds to box fill data to.</param>
     </member>
@@ -15210,7 +15210,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Does a preview of what happens when a GridBrush.FloodFill is done with the same parameters.</para>
       </summary>
-      <param name="gridLayout"> to paint data to.</param>
+      <param name="gridLayout">Grid to paint data to.</param>
       <param name="brushTarget">Target of the flood fill operation. By default the currently selected GameObject.</param>
       <param name="position">The coordinates of the cell to flood fill data to.</param>
     </member>
@@ -15218,7 +15218,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Callback for painting the GUI for the GridBrush in the Scene View.</para>
       </summary>
-      <param name="gridLayout"> that the brush is being used on.</param>
+      <param name="gridLayout">Grid that the brush is being used on.</param>
       <param name="brushTarget">Target of the GridBrushBase.Tool operation. By default the currently selected GameObject.</param>
       <param name="position">Current selected location of the brush.</param>
       <param name="tool">Current GridBrushBase.Tool selected.</param>
@@ -15233,7 +15233,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Paints preview data into a cell of a grid given the coordinates of the cell.</para>
       </summary>
-      <param name="gridLayout"> to paint data to.</param>
+      <param name="gridLayout">Grid to paint data to.</param>
       <param name="brushTarget">Target of the paint operation. By default the currently selected GameObject.</param>
       <param name="position">The coordinates of the cell to paint data to.</param>
     </member>
@@ -15273,7 +15273,7 @@ If the Unity Editor setting "Auto-Update" is set to enabled, editing a script ou
       <summary>
         <para>Callback for painting the GUI for the GridBrush in the Scene view.</para>
       </summary>
-      <param name="gridLayout"> that the brush is being used on.</param>
+      <param name="gridLayout">Grid that the brush is being used on.</param>
       <param name="brushTarget">Target of the GridBrushBase.Tool operation. By default the currently selected GameObject.</param>
       <param name="position">Current selected location of the brush.</param>
       <param name="tool">Current GridBrushBase.Tool selected.</param>
@@ -15834,9 +15834,34 @@ Note: Use HandleUtility.GetHandleSize where you might want to have constant scre
       <param name="size">The size of the handle in the space of Handles.matrix. Use HandleUtility.GetHandleSize if you want a constant screen-space size.</param>
       <param name="snap">The snap increment on all axes. See Handles.SnapValue.</param>
       <param name="capFunction">The function to call for doing the actual drawing.</param>
+      <param name="controlID">The control ID for the handle.</param>
       <returns>
         <para>The new value modified by the user's interaction with the handle. If the user has not moved the handle, it will return the same value as you passed into the function.</para>
       </returns>
+    </member>
+    <member name="M:UnityEditor.Handles.FreeMoveHandle(System.Int32,UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3,UnityEditor.Handles/CapFunction)">
+      <summary>
+        <para>Make an unconstrained movement handle.</para>
+      </summary>
+      <param name="position">The position of the handle in the space of Handles.matrix.</param>
+      <param name="rotation">The rotation of the handle in the space of Handles.matrix.</param>
+      <param name="size">The size of the handle in the space of Handles.matrix. Use HandleUtility.GetHandleSize if you want a constant screen-space size.</param>
+      <param name="snap">The snap increment on all axes. See Handles.SnapValue.</param>
+      <param name="capFunction">The function to call for doing the actual drawing.</param>
+      <param name="controlID">The control ID for the handle.</param>
+      <returns>
+        <para>The new value modified by the user's interaction with the handle. If the user has not moved the handle, it will return the same value as you passed into the function.</para>
+      </returns>
+    </member>
+    <member name="M:UnityEditor.Handles.FreeMoveHandle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3,UnityEditor.Handles/DrawCapFunction)">
+      <summary>
+        <para>TODO.</para>
+      </summary>
+      <param name="position"></param>
+      <param name="rotation"></param>
+      <param name="size"></param>
+      <param name="snap"></param>
+      <param name="capFunc"></param>
     </member>
     <member name="M:UnityEditor.Handles.FreeRotateHandle(System.Int32,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single)">
       <summary>
@@ -18760,41 +18785,6 @@ GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
         <para>A light status bar, intended for use on dark backgrounds.</para>
       </summary>
     </member>
-    <member name="T:UnityEditor.iOSSystemGestureDeferMode">
-      <summary>
-        <para>Bit-mask used to control the deferring of system gestures on iOS.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.All">
-      <summary>
-        <para>Identifies all screen edges.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.BottomEdge">
-      <summary>
-        <para>Identifies bottom screen edge.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.LeftEdge">
-      <summary>
-        <para>Identifies left screen edge.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.None">
-      <summary>
-        <para>Disables gesture deferring on all edges.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.RightEdge">
-      <summary>
-        <para>Identifies right screen edge.</para>
-      </summary>
-    </member>
-    <member name="F:UnityEditor.iOSSystemGestureDeferMode.TopEdge">
-      <summary>
-        <para>Identifies top screen edge.</para>
-      </summary>
-    </member>
     <member name="T:UnityEditor.iOSTargetDevice">
       <summary>
         <para>Target iOS device.</para>
@@ -20328,7 +20318,10 @@ See Also: MaterialLightmapFlags.</para>
     </member>
     <member name="M:UnityEditor.MemoryProfiler.MemorySnapshot.RequestNewSnapshot">
       <summary>
-        <para>Requests a new snapshot from the currently connected target of the profiler. Currently only il2cpp-based players are able to provide memory snapshots.</para>
+        <para>Requests a new snapshot from the currently connected target of the profiler. Memory snapshots are supported on IL2CPP and Mono .NET 3.5 scripting backends.
+
+
+NOTE: Each snapshot consists of approximately one managed object per recorded managed object. Snapshots taken from the editor will contain the objects in all previous snapshots that have not yet been garbage-collected. Therefore, repeated snapshots of the editor may grow exponentially. If you no longer need an old snapshot it is therefore advisable to null all references to it and call GC.Collect() before taking another one.</para>
       </summary>
     </member>
     <member name="T:UnityEditor.MemoryProfiler.PackedGCHandle">
@@ -23215,6 +23208,11 @@ See Also: PhysicsVisualizationSettings.</para>
         <para>Defer system gestures until the second swipe on specific edges.</para>
       </summary>
     </member>
+    <member name="P:UnityEditor.PlayerSettings.iOS.deferSystemGesturesMode">
+      <summary>
+        <para>Defer system gestures until the second swipe on specific edges.</para>
+      </summary>
+    </member>
     <member name="P:UnityEditor.PlayerSettings.iOS.disableDepthAndStencilBuffers">
       <summary>
         <para>Disable Depth and Stencil Buffers.</para>
@@ -23527,6 +23525,11 @@ See Also: PhysicsVisualizationSettings.</para>
     <member name="F:UnityEditor.PlayerSettings.N3DS.TargetPlatform.Nintendo3DS">
       <summary>
         <para>Target the Nintendo 3DS platform.</para>
+      </summary>
+    </member>
+    <member name="T:UnityEditor.PlayerSettings.PS4">
+      <summary>
+        <para>Player Settings for the PlayStation®4.</para>
       </summary>
     </member>
     <member name="T:UnityEditor.PlayerSettings.PS4.PS4AppCategory">
@@ -24223,6 +24226,11 @@ Note: calling this function will implicitly call Application.SetStackTraceLogTyp
         <para>The new logo.</para>
       </returns>
     </member>
+    <member name="T:UnityEditor.PlayerSettings.Switch">
+      <summary>
+        <para>Player Settings for the Nintendo Switch platform.</para>
+      </summary>
+    </member>
     <member name="T:UnityEditor.PlayerSettings.Tizen">
       <summary>
         <para>Tizen specific player settings.</para>
@@ -24784,6 +24792,11 @@ For more information - https:msdn.microsoft.comlibrarywindowsappshh779671https:m
     <member name="F:UnityEditor.PlayerSettings.WSASupportedFileType.fileType">
       <summary>
         <para>File type extension. For ex., .myUnityGame</para>
+      </summary>
+    </member>
+    <member name="T:UnityEditor.PlayerSettings.XboxOne">
+      <summary>
+        <para>Xbox One Specific Player Settings.</para>
       </summary>
     </member>
     <member name="T:UnityEditor.PlayModeStateChange">
@@ -27002,6 +27015,12 @@ See Also:</para>
         <para>The material property found, otherwise null.</para>
       </returns>
     </member>
+    <member name="M:UnityEditor.ShaderGUI.OnClosed(UnityEngine.Material)">
+      <summary>
+        <para>This method is called when the ShaderGUI is being closed.</para>
+      </summary>
+      <param name="material"></param>
+    </member>
     <member name="M:UnityEditor.ShaderGUI.OnGUI(UnityEditor.MaterialEditor,UnityEditor.MaterialProperty[])">
       <summary>
         <para>To define a custom shader GUI use the methods of materialEditor to render controls for the properties array.</para>
@@ -28992,6 +29011,11 @@ Values match the ProceduralMaterial::ProceduralLoadingBehavior enum.</param>
     <member name="P:UnityEditor.TextureImporterSettings.spriteExtrude">
       <summary>
         <para>The number of blank pixels to leave between the edge of the graphic and the mesh.</para>
+      </summary>
+    </member>
+    <member name="P:UnityEditor.TextureImporterSettings.spriteGenerateFallbackPhysicsShape">
+      <summary>
+        <para>Generates a default physics shape for a Sprite if a physics shape has not been set by the user.</para>
       </summary>
     </member>
     <member name="P:UnityEditor.TextureImporterSettings.spriteMode">

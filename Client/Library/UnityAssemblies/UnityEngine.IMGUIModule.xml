@@ -190,6 +190,21 @@
         <para>Types of UnityGUI input and processing events.</para>
       </summary>
     </member>
+    <member name="F:UnityEngine.EventType.mouseDown">
+      <summary>
+        <para>An event that is called when the mouse is clicked.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEngine.EventType.mouseDrag">
+      <summary>
+        <para>An event that is called when the mouse is clicked and dragged.</para>
+      </summary>
+    </member>
+    <member name="F:UnityEngine.EventType.mouseUp">
+      <summary>
+        <para>An event that is called when the mouse is no longer being clicked.</para>
+      </summary>
+    </member>
     <member name="F:UnityEngine.EventType.ContextClick">
       <summary>
         <para>User has right-clicked (or control-clicked on the mac).</para>
